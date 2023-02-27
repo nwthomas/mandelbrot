@@ -68,6 +68,7 @@ fn render_mandelbrot(escape_vals: Vec<Vec<usize>>) {
 
       line.push(val);
     }
+    
     println!("{}", line);
   }
 }
